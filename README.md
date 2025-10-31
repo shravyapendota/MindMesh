@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+🧠 MindMesh
 
-## Project info
+MindMesh is an AI-powered web app that lets users upload their notes and documents, then chat with their own knowledge base — kind of like ChatGPT for your files.
 
-**URL**: https://lovable.dev/projects/4e283c7a-7529-48dd-a7e1-b663fbe6130d
+🚀 Features
 
-## How can I edit this code?
+Upload PDFs, DOCX, TXT, and Markdown files
 
-There are several ways of editing your application.
+Chat with your uploaded data using OpenAI + LangChain
 
-**Use Lovable**
+Secure user authentication
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4e283c7a-7529-48dd-a7e1-b663fbe6130d) and start prompting.
+MongoDB for storing user data and embeddings
 
-Changes made via Lovable will be committed automatically to this repo.
+Simple dashboard to upload, delete, and view files
 
-**Use your preferred IDE**
+🧩 Tech Stack
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Frontend: Next.js, TailwindCSS, Shadcn UI
+Backend: Node.js (Express)
+Database: MongoDB
+Auth: Clerk / Firebase
+AI: OpenAI API + LangChain
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+⚙️ Setup
+git clone https://github.com/shravyapendota/MindMesh.git
+cd mindmesh-ai
+npm install
 npm run dev
-```
 
-**Edit a file directly in GitHub**
+Create a .env file:
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+OPENAI_API_KEY=your_api_key
+MONGODB_URI=your_mongo_connection
 
-**Use GitHub Codespaces**
+💼 Resume Highlights
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Built a full-stack AI web app that lets users chat with their uploaded documents
 
-## What technologies are used for this project?
+Integrated MongoDB, LangChain, and OpenAI for custom knowledge retrieval
 
-This project is built with:
+Designed a secure and scalable architecture with Next.js + Express
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+👤 Author
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/4e283c7a-7529-48dd-a7e1-b663fbe6130d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+Shravya Pendota
+GitHub: @<your-username>
