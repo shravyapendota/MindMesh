@@ -33,15 +33,6 @@ Create a .env file:
 OPENAI_API_KEY=your_api_key
 MONGODB_URI=your_mongo_connection
 
-💼 Resume Highlights
 
-Built a full-stack AI web app that lets users chat with their uploaded documents
 
-Integrated MongoDB, LangChain, and OpenAI for custom knowledge retrieval
 
-Designed a secure and scalable architecture with Next.js + Express
-
-👤 Author
-
-Shravya Pendota
-GitHub: @<your-username>
